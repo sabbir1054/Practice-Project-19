@@ -1,0 +1,457 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+/*/ X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: block !important;
+
+    }
+
+    #navbarNav {
+        background-color: #171B29;
+    }
+
+    .navbar-brand {
+        margin-right: -10%;
+    }
+
+    .signupbtn {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        border-bottom: 1px solid #22A75D;
+    }
+
+    /* *************** */
+/* *************** */
+.hero_text {
+    margin-top: 10%;
+}
+
+.hero_text .fs-1 {
+    font-size: 3rem !important;
+}
+
+/* ********************** */
+
+
+.yr1,
+.yr2 {
+    margin-bottom: 5% !important;
+}
+
+
+/* ***************** */
+.cr1,
+.cr2 {
+    justify-content: center !important;
+}
+
+.card1,
+.card2 {
+    width: 95%;
+}
+
+.card1 .fs-1,
+.card2 .fs-1 {
+    font-size: 2rem !important;
+}
+    /* ******************* */
+    footer {
+        background-image: unset;
+    }
+
+    .menu_bottom a {
+        padding: 0% 23%;
+    }
+
+    .content1 {
+        padding: 10% 38%;
+    }
+
+    .copyright {
+        justify-content: center !important;
+    }
+
+    .copyright ul li {
+        text-align: center;
+    }
+
+    .buy_footer {
+        background-color: #0F1320;
+        color: white;
+        background-image: unset;
+        background-image: url(../assets/images/footer_bg.png)cover;
+        background-repeat: repeat-y;
+
+    }
+
+    .content1 {
+        display: flex;
+        justify-content: center !important;
+        margin-bottom: 5%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/*/ Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: block !important;
+
+    }
+
+    .container_wrapper .navbar-brand {
+
+        padding-right: 60%;
+    }
+
+    .signupbtn {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        border-bottom: 1px solid #22A75D;
+    }
+
+    /* *************** */
+
+.hero_text {
+    margin-top: 10%;
+}
+
+.hero_text .fs-1 {
+    font-size: 3rem !important;
+}
+
+/* ********************** */
+
+
+.yr1,
+.yr2 {
+    margin-bottom: 5% !important;
+}
+
+
+/* ***************** */
+.cr1,
+.cr2 {
+    justify-content: center !important;
+}
+
+.card1,
+.card2 {
+    width: 95%;
+}
+
+.card1 .fs-1,
+.card2 .fs-1 {
+    font-size: 2rem !important;
+}
+
+
+/***************************/
+
+    .menu_bottom a {
+        padding: 0% 23%;
+    }
+
+    .content1 {
+        padding: 10% 38%;
+    }
+
+    .copyright {
+        justify-content: center !important;
+    }
+
+    .copyright ul li {
+        text-align: center;
+    }
+
+    .buy_footer {
+        background-color: #0F1320;
+        color: white;
+        background-image: unset;
+
+    }
+
+
+ .content1 {
+     display: flex;
+     justify-content: center !important;
+     margin-bottom: 5%;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/ Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: block !important;
+
+    }
+
+    .container_wrapper .navbar-brand {
+
+        padding-right: 60%;
+    }
+
+    .signupbtn {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10%;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        border-bottom: 1px solid #22A75D;
+    }
+
+    /* *************** */
+.hero_text {
+    margin-top: 10%;
+}
+
+.hero_text .fs-1 {
+    font-size: 3rem !important;
+}
+
+/* ********************** */
+
+
+.yr1,
+.yr2 {
+    margin-bottom: 5% !important;
+}
+
+
+/* ***************** */
+.cr1,
+.cr2 {
+    justify-content: center !important;
+}
+
+.card1,
+.card2 {
+    width: 95%;
+}
+
+.card1 .fs-1,
+.card2 .fs-1 {
+    font-size: 2rem !important;
+}
+
+
+/* ************************** */
+    .menu_bottom {
+        justify-content: space-evenly !important;
+    }
+
+    .menu_bottom a {
+        padding: 0%;
+    }
+
+    .content1 {
+        padding: 0;
+    }
+
+    .copyright {
+        justify-content: center !important;
+    }
+
+    .copyright ul li {
+        text-align: center;
+    }
+
+    .buy_footer {
+        background-color: #0F1320;
+        color: white;
+        background-image: unset;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/ Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: block !important;
+
+    }
+
+    .container_wrapper .navbar-brand {
+
+        padding-right: 60%;
+    }
+
+    .signupbtn {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10%;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        border-bottom: 1px solid #22A75D;
+    }
+
+    /* *************** */
+    .hero_text {
+        margin-top: 10%;
+    }
+
+    .hero_text .fs-1 {
+        font-size: 3rem !important;
+    }
+
+    /* ********************** */
+
+
+    .yr1,
+    .yr2 {
+        margin-bottom: 5% !important;
+    }
+
+
+    /* ***************** */
+    .cr1,
+    .cr2 {
+        justify-content: center !important;
+    }
+
+    .card1,
+    .card2 {
+        width: 95%;
+    }
+
+    .card1 .fs-1,
+    .card2 .fs-1 {
+        font-size: 2rem !important;
+    }
+/*****************************************/
+
+    .menu_bottom {
+        justify-content: space-evenly !important;
+    }
+
+    .menu_bottom a {
+        padding: 0%;
+    }
+
+    .content1 {
+        padding: 0;
+    }
+
+    .copyright {
+        justify-content: center !important;
+    }
+
+    .copyright ul li {
+        text-align: center;
+    }
+
+    .buy_footer {
+        background-color: #0F1320;
+        color: white;
+        background-image: unset;
+
+    }
+
+}
+
+/*/ X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+    .buy_footer {
+        padding-bottom: 3%;
+    }
+
+}
+
+/*/ XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width*/

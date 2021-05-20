@@ -1,0 +1,318 @@
+html,
+body {
+
+    overflow-x: hidden;
+}
+/*--------PRELOADER SECTON--------------*/
+
+.loader_bg{
+    position: fixed;
+    z-index: 9999999;
+    background: #0F1320;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border:0 solid transparent;
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top:calc(50vh - 75px);
+    left:calc(50vw - 75px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border:1em solid #129E4F;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top:0;
+    left:0;
+    animation:loader 2s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: 0.5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform:scale(1);
+        opacity: 0;
+    }
+}
+
+
+/* SCroll */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*=========================================================================================*/
+/*=========================     PROJECT START    ==========================================*/
+/*=========================================================================================*/
+.container_wrapper {
+    background-color: #0F1320;
+}
+.home_page{
+    background-color: #0F1320;
+    background-image: url(../assets/images/bg_up01.png);
+    background-repeat: no-repeat;      
+}
+/* Navigation Section */
+.container_wrapper .navbar-brand {
+    font-weight: bold;
+    color:#ffffff;
+    padding-right: 10%;
+    font-size: 2rem;   
+}
+.container_wrapper .navbar-brand:hover { 
+    color: #22A75D;
+}
+.navbar-nav .nav-item{
+    padding-right: 20px;   
+}
+.navbar-nav .nav-item a{
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+.navbar-nav .nav-item a:hover {
+    font-size: 1.2rem;
+    border: 3px solid #009540;
+    border-radius: 10px;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+     color: rgba(255, 255, 255, 0.9); 
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255) !important;
+}
+ .navbar-light .navbar-toggler-icon {
+    background-image: url(../assets/images/list.svg);
+}
+ 
+
+.sign_btn, .btn_learn, .btn_readMore {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff; 
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #009541 3px;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+.sign_btn2{
+    border:none ;
+}
+.sign_btn:hover {
+    background: #009541;
+    text-decoration: none;
+}
+
+
+
+/******************* Hero section ************************* */
+
+.heading_text{
+   color:white;
+   font-size: 2rem;
+   font-weight: bold; 
+   margin-top: 10%;
+}
+
+.hero_text .fs-1{
+    color: #FFD100;
+    font-size: 4rem !important;
+}
+.hero_text p{
+    color:white;
+}
+
+.hero_img_section{
+    color:white;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.hero_photo_left{
+margin-top: 5%;
+margin-left: 35%;
+}
+.hero_photo_left .fs-3 {
+    color: #0753A2;
+    font-weight: bold;
+}
+.hero_photo_right {
+    margin-top: 10%;
+}
+.hero_photo_right .fs-3 {
+    color: #E20613;
+    font-weight: bold;
+}
+
+
+/************* Years Section******************/
+.years_full{
+    background-color: #0F1320;
+    color:white;
+}
+
+.year1,.year2,.year3,.year4,.year5,.year6,.year7,.year8,.year9{
+    background-color: #171B29;
+    
+    border-radius: 10px;
+}
+.year1 .color_text,
+.year5 .color_text,
+.year9 .color_text {
+    color:#0F9D4D;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.year2 .color_text,
+.year6 .color_text {
+    color: #FFD100;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.year3 .color_text,
+.year7 .color_text {
+    color: #0F87CA;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.year4 .color_text,
+.year8 .color_text {
+    color: #E20613;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.list1{
+    padding-bottom: 5%;
+}
+/***************************  Card SECTION  ************************************************/
+
+.card_section{
+    background-color: #0F1320;
+    background-image: url(../assets/images/phase_bg.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    color: #000000;
+    padding-top:10%;
+    padding-bottom: 10%;
+    
+
+}
+.card1,.card2{
+    background-color: #ffffff;
+    /* padding: 10% 0%; */
+    margin-bottom: 10%;
+    border-radius: 20px;
+    width: 60%;
+}
+.card1{
+    background-color: #ffffff;
+     margin-bottom: 15%;
+    border-radius: 20px;
+    width: 60%;
+    padding-bottom: 5%;
+}
+.card1 .p1{
+    font-weight: bold;
+    padding: 5% 30%
+}
+.card1 .fs-1{
+    color: #36AE6A;
+    font-size: 4rem !important;
+    font-weight: bold;
+    text-align: center;
+}
+.card1 .p2{
+    margin-right: 20%;
+    font-weight: bold;
+}
+.card2{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 60%;
+    padding-bottom: 5%;
+}
+.card2 .p1 {
+    font-weight: bold;
+    padding: 5% 35%;
+    font-size: 1.2rem;
+}
+.card2 .fs-1 {
+    color: #FFD100;
+    font-size: 4rem !important;
+    font-weight: bold;
+    text-align: center;
+}
+.card2 .p2 {
+    margin-right: 20%;
+    font-weight: bold;
+}
+.card2 .p3 {
+    padding: 0% 15%;
+}
+/* ************   Footer   ********************************** */
+
+footer{
+    background-color: #0F1320;
+    color:white;
+    background-image: url(../assets/images/footer_bg.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+     padding-bottom:10%; 
+}
+
+
+.footer_top{
+    padding: 5% 30%;
+    
+}
+.footer_top a{
+    
+    color: white;
+}
+.footer_top a:hover {
+    color: #129E4F;
+}
+.footer_bottom .content1 .img-fluid{
+    padding-left:20px;
+}
+.buy_footer .footer_bottom .h3{
+padding-bottom: unset;
+}
+
+
+
+.logo{
+    padding-left: 5%;
+}
+.social ul li a img:hover {
+    transform: scale(1.2);
+}
+.copyright{
+
+    padding-right:5%;
+} 
