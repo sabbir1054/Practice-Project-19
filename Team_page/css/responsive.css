@@ -5,35 +5,38 @@ html,body{
 
 /*/ X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-.navbar>.container,
-.navbar>.container-fluid,
-.navbar>.container-lg,
-.navbar>.container-md,
-.navbar>.container-sm,
-.navbar>.container-xl,
-.navbar>.container-xxl {
-    display: block !important;
 
-}
-#navbarNav{
-    background-color: #171B29;
-}
-.navbar-brand {
-     margin-right: -10%;
- }
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: block !important;
 
-.signupbtn {
-    display: none !important;
-}
+    }
 
-.navbar-collapse {
-    display: flex;
-    justify-content: flex-end;
-}
+    #navbarNav {
+        background-color: #171B29;
+    }
 
-.navbar-nav .nav-item .nav-link {
-    border-bottom: 1px solid #22A75D;
-}
+    .navbar-brand {
+        margin-right: -10%;
+    }
+
+    .signupbtn {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        border-bottom: 1px solid #22A75D;
+    }
 /* *************** */
 
 /* ******************* */

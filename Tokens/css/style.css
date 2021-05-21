@@ -69,45 +69,80 @@ html {
     background-repeat: no-repeat;      
 }
 /* Navigation Section */
-.container_wrapper .navbar-brand {
-    font-weight: bold;
-    color:#ffffff;
-    padding-right: 10%;
-    font-size: 2rem;   
+.navigation {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
 }
-.container_wrapper .navbar-brand:hover { 
-    color: #22A75D;
+
+.bg-light {
+    background-color: rgba(255, 255, 255, 0) !important;
 }
-.navbar-nav .nav-item{
-    padding-right: 20px;   
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
 }
-.navbar-nav .nav-item a{
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
     font-size: 1rem;
     transition: all 0.3s ease;
 }
-.navbar-nav .nav-item a:hover {
+
+.navbar-nav .nav-link:hover {
     font-size: 1.2rem;
     border: 3px solid #009540;
     border-radius: 10px;
 }
+
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
-     color: rgba(255, 255, 255, 0.9); 
+    color: rgba(255, 255, 255, 0.9);
 }
+
 .navbar-light .navbar-nav .nav-link {
     color: rgb(255 255 255) !important;
 }
- .navbar-light .navbar-toggler-icon {
+
+.navbar-light .navbar-toggler-icon {
     background-image: url(../assets/images/list.svg);
 }
- 
 
-.sign_btn, .btn_learn, .btn_readMore {
+.brand_logo {
+    padding: 10%;
+}
+
+.brand_logo a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    padding-right: 10%;
+    font-size: 2rem;
+}
+
+.brand_logo a:hover {
+    color: #22A75D;
+}
+
+.joinBtn {
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+.sign_btn,
+.btn_learn,
+.btn_readMore {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
     font-family: Arial;
-    color: #ffffff; 
+    color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     border: solid #009541 3px;
@@ -116,9 +151,12 @@ html {
     font-size: 0.8rem;
     transition: all 0.3s ease;
 }
-.sign_btn2{
-    border:none ;
+
+.sign_btn2 {
+    border: none;
+
 }
+
 .sign_btn:hover {
     background: #009541;
     text-decoration: none;
